@@ -1,0 +1,41 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic");
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+#carousel {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  border: solid 1px red;
+  overflow: hidden;
+  position: relative;
+}
+
+#carousel ul {
+  padding: 0;
+  width: 2000px;
+}
+
+#carousel li {
+  list-style: none;
+  float: left;
+}
+
+#carousel img {
+  width: 400px;
+  height: 300px;
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  left: 90%; 
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
